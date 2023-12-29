@@ -15,7 +15,7 @@ public class Main {
             List<String> userIngredients = Arrays.asList(input.split(",\\s*"));
             finder.findRecipes(userIngredients);
           
-            // Ask the user if they are done
+            // Ask the user if they are done s
 
             System.out.println("Are you done? (yes/no)");
             String response = scanner.nextLine().trim().toLowerCase();

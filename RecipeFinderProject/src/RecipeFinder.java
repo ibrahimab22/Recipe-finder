@@ -50,7 +50,7 @@ public class RecipeFinder {
     private void selectAndDisplayRecipe(List<Recipe> recipes) {
         Scanner scanner = new Scanner(System.in);
         int choice = -1;
-
+///
         // Loop to ensure valid selection
         while (choice < 1 || choice > recipes.size()) {
             System.out.println("Enter the number of the food to see the ingredients (or 0 to exit):");
