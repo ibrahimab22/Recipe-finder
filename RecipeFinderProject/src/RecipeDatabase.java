@@ -27,7 +27,7 @@ public class RecipeDatabase {
         recipes.add(new Recipe("Pumpkin Soup", Arrays.asList("pumpkin", "onion", "garlic", "vegetable broth", "cream")));
         recipes.add(new Recipe("Fish Tacos", Arrays.asList("salmon", "taco shells", "cabbage", "avocado", "sour cream")));
         recipes.add(new Recipe("Pasta Carbonara", Arrays.asList("pasta", "egg", "bacon", "parmesan", "black pepper")));
-        recipes.add(new Recipe("Stir-Fried Tofu", Arrays.asList("tofu", "soy sauce", "bell pepper", "broccoli", "garlic", "ginger")));
+        recipes.add(new Recipe("Stir-Fried Tofu", Arrays.asList("tofu", "soy sauce,", "bell pepper", "broccoli", "garlic", "ginger")));
     }
 
     public List<Recipe> getRecipes() {
